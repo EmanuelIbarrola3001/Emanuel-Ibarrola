@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/icons/ema-img.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <title>Emanuel Ibarrola</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+            id="toggle-icon"
+            src="assets/icons/moon.svg"
+            alt="icon theme"
+            class="toggle-theme__icon"
+          />
+          <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+        </div>
+
+        <div id="toggle-colors" class="colors">
+          <div
+            data-color="hsl(214, 84%, 56%)"
+            class="colors_item colors_item--blue"
+          ></div>
+
+          <div
+            data-color="hsl(150, 84%, 56%)"
+            class="colors_item colors_item--green"
+          ></div>
+
+          <div
+            data-color="hsl(276, 84%, 56%)"
+            class="colors_item colors_item--purple"
+          ></div>
+
+          <div
+            data-color="hsl(46, 84%, 56%)"
+            class="colors_item colors_item--orange"
+          ></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- Perfil card -->
+
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile.jpg" alt="" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Emanuel Ibarrola</h2>
+            <p class="card__subtitle">Desarrodor Web</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:emanuel.ibarrola3001@gmail.com"
+                >emanuel.ibarrola3001@gmail.com</a
+              >
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone icon"></i>
+              <a href="tel:1168746929">+54 1168746929</a>
+            </div>
+            <div class="card__link">
+              <i class="fab fa-linkedin icon"></i>
+              <a href="https://www.linkedin.com/in/emanuelibarrola/"
+                >Linkedin</a
+              >
+            </div>
+            <div class="card__link">
+              <i class="fas fa-envelope-open icon"></i>
+              <a href="mailto:emanuel.ibarrola3001@gmail.com">cv</a>
+            </div>
+            <p class="card__text">
+              Desarrollador web usando Angular como Front y java , Node.js en
+              Back.
+            </p>
+            <p>
+              Soy una persona entusiasta autodidacta y comprometido en mis
+              tareas .Pienso que se debe aprender algo nuevo todos los días y
+              eso es lo que implemento para mi vida
+            </p>
+          </div>
+        </article>
+
+        <!-- <article class="card card--experience">
+          <h2 class="card_title">Experiencia</h2>
+          <div class="experience">
+            <img
+              src="assets/images/logo.png"
+              alt="logo"
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time">feb 2021 - Actualidad</p>
+              <h3 class="experience__job">Frond End Developer</h3>
+              <p class="experience__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                reprehenderit nulla nostrum asperiores
+              </p>
+            </div>
+          </div>
+        </article> -->
+
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie1.jpg" alt="gim" />
+          </div>
+          <h3 class="hobbie__title">Entrenamiento</h3>
+          <p class="card__text">
+            Me gusta realizar ejercicios de entrenamiento para un estado fisico
+            y de salud buenos
+          </p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">HTML</p>
+              <div class="shills__bar shills__bar--80"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">CSS</p>
+              <div class="shills__bar shills__bar--60"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">JAVASCRIPT</p>
+              <div class="shills__bar shills__bar--80"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">BOOTSTRAP</p>
+              <div class="shills__bar shills__bar--70"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">FRAMEWORK</h2>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">ANGULAR</p>
+              <div class="shills__bar shills__bar--70"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">FIREBASE</p>
+              <div class="shills__bar shills__bar--40"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">REACT</p>
+              <div class="shills__bar shills__bar--80"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">UX/UI</p>
+              <div class="shills__bar shills__bar--20"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">BACKEND</h2>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">JAVA</p>
+              <div class="shills__bar shills__bar--70"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">MYSQL</p>
+              <div class="shills__bar shills__bar--40"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">ECMASCRIP</p>
+              <div class="shills__bar shills__bar--80"></div>
+            </div>
+          </div>
+          <div class="shills">
+            <div class="shills__item">
+              <p class="shills__tech">NODE.JS</p>
+              <div class="shills__bar shills__bar--40"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- proyectos -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/app__dragon.PNG"
+              alt="Landing Page"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#React</span>
+              <span class="project__tag">#Css</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">APP DRAGON BALL</h2>
+            <p class="card__text">
+              Una App de Dragon con React.js , construida con progressive web
+              app , donde se puede filtar por genero y buscador de personajes
+            </p>
+            <br /><br />
+            <div class="buttons">
+              <a
+                href="https://dragon-ball-app.netlify.app/man"
+                class="button button--primary"
+                target="_blank"
+              >
+                Link
+              </a>
+              <a
+                href="https://gitlab.com/emanuel.ibarrola3001/dragon-ball"
+                class="button button--ghost"
+                target="_blank"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/app__gallery.PNG"
+              alt="Landing Page"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#React</span>
+              <span class="project__tag">#Css</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">GALLERY APP</h2>
+            <p class="card__text">
+              Una App de Galeria de imagenes hecha con React.js , construida con
+              progressive web app , donde se buscar images
+            </p>
+            <br /><br />
+
+            <div class="buttons">
+              <a
+                href="https://gallery-react2021.netlify.app/"
+                class="button button--primary"
+                target="_blank"
+              >
+                Link
+              </a>
+              <a
+                href="https://gitlab.com/emanuel.ibarrola3001/gallery-app"
+                class="button button--ghost"
+                target="_blank"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/app__calculadora.PNG"
+              alt="Landing Page"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#React</span>
+              <span class="project__tag">#Css</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">CALCULADORA-PWA</h2>
+            <p class="card__text">
+              Una calculadora Basica hecha con React.js ,tambien construida con
+              progressive web app
+            </p>
+            <br /><br />
+            <div class="buttons">
+              <a
+                href="https://pwa-calculadora.netlify.app/"
+                class="button button--primary"
+                target="_blank"
+              >
+                Link
+              </a>
+              <a
+                href="https://gitlab.com/emanuel.ibarrola3001/calculadora/-/tree/dev"
+                class="button button--ghost"
+                target="_blank"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/app__tareas.PNG"
+              alt="Landing Page"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Angular</span>
+              <span class="project__tag">#Css</span>
+              <span class="project__tag">#TypeScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">App de Tareas</h2>
+            <p class="card__text">
+              Una App hecha con Angular , utilizando Bootstrap para el diseño ,
+              con ella se puede agregar una seria de tareas donde puedes ir
+              marcado las que realizaste.
+            </p>
+            <br /><br />
+
+            <div class="buttons">
+              <a
+                href="https://angulartareas.netlify.app/"
+                class="button button--primary"
+                target="_blank"
+              >
+                Link
+              </a>
+              <a
+                href="https://gitlab.com/emanuel.ibarrola3001/app-tareas"
+                class="button button--ghost"
+                target="_blank"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/app__moneda.PNG"
+              alt="Landing Page"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Angular</span>
+              <span class="project__tag">#Css</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">CONVERTIDOR MONEDAS</h2>
+            <p class="card__text">
+              Una App que convierte monedas hecha con Angular , utilizando
+              Bootstrap para el diseño
+            </p>
+            <br /><br />
+
+            <div class="buttons">
+              <a
+                href="https://convertidor-angular2021.netlify.app/"
+                class="button button--primary"
+                target="_blank"
+              >
+                Link
+              </a>
+              <a
+                href="https://gitlab.com/emanuel.ibarrola3001/convertidor-de-monedas"
+                class="button button--ghost"
+                target="_blank"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/app__peso.PNG"
+              alt="Landing Page"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Angular</span>
+              <span class="project__tag">#Css</span>
+              <span class="project__tag">#TypeScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">Medidor de Peso</h2>
+            <p class="card__text">
+              Un App de medidor de peso hecha con Angular , utilizando Bootstrap
+              para el diseño , donde mide el peso corporal indicando si hay o no
+              sobre peso
+            </p>
+            <br /><br />
+
+            <div class="buttons">
+              <a
+                href="https://medidor-peso.netlify.app/"
+                class="button button--primary"
+                target="_blank"
+              >
+                Link
+              </a>
+              <a
+                href="https://gitlab.com/emanuel.ibarrola3001/medidor-de-peso"
+                class="button button--ghost"
+                target="_blank"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/app__dados.PNG"
+              alt="Landing Page"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Angular</span>
+              <span class="project__tag">#Css</span>
+              <span class="project__tag">#TypeScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">App Dados</h2>
+            <p class="card__text">
+              Un juego de dados hecha con Angular , utilizando Bootstrap para el
+              diseño
+            </p>
+            <br /><br />
+
+            <div class="buttons">
+              <a
+                href="https://dadosweb.netlify.app/"
+                class="button button--primary"
+                target="_blank"
+              >
+                Link
+              </a>
+              <a
+                href="https://gitlab.com/emanuel.ibarrola3001/appdados"
+                class="button button--ghost"
+                target="_blank"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
